@@ -1,0 +1,139 @@
+/*************************************** Elements style ******************************************/
+body{
+     font-family: 'Merriweather', serif;
+     padding: 0;
+	   margin : 0;
+     text-align: center;
+}
+
+h1{
+  color:  #33313b;
+  font-family: 'Sacramento', cursive;
+	font-size: 5rem;
+	margin :3rem;
+}
+
+h2{
+   font-family: 'Montserrat', sans-serif;
+   color:  #33313b;
+   font-size: 2.5rem;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr{
+width: 4%;
+border: dotted;
+border-color: #40514e;
+border-top: 1rem;
+border-width: 10px;
+}
+
+p{
+  line-height: 2;
+}
+/*************************************** Classes style *******************************************/
+
+.top-container{
+	background-color: #4592af;
+     padding-top: 60px;
+     position: relative;
+    
+}
+
+.mountain{
+  margin-bottom: -3px;
+}
+.top-cloud{
+    position: absolute;
+    right:300px;
+    top:50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+/*check this one later */
+.programmer{
+  font-weight: normal;
+  line-height: 2;
+}
+
+.middle-container{
+    padding-top: 40px;
+    background-color: #ececec;
+}
+
+.profile-picture{
+   width: 150px;
+   height: 150px;
+   border-radius: 100px;
+   margin-top: 5px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 40px;
+}
+
+.book-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skills-text{
+   bottom: 50px;
+   margin-left: 20px;
+   line-height: 2;
+}
+
+.bottom-container{
+    background-color: #40514e;
+    height: 150px;
+    padding-top: 35px;
+    margin-top: 45px;
+    line-height: 3;
+ }
+.bottom-container a{
+  text-decoration: none;
+  padding :15px;
+}
+
+.bottom-container p{
+  color:white;
+
+}
+
+.btn{
+  background-color:#40514e;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding:18px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background-color:#9d0b28;  
+  color:#eeeeee;
+  transition: 0.75s ease;
+}
+
+.footer-link{
+  padding-top: 15px;
+}
